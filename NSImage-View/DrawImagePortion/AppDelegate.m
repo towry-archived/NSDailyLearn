@@ -16,18 +16,18 @@
 @implementation AppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
-	// Insert code here to initialize your application
-	[self performSelector:@selector(resizeWindow) withObject:self afterDelay:1];
+    // Insert code here to initialize your application
+    [self performSelector:@selector(resizeWindow) withObject:self afterDelay:1];
 }
 
 - (void)applicationWillTerminate:(NSNotification *)aNotification {
-	// Insert code here to tear down your application
+    // Insert code here to tear down your application
 }
 
 // private method
 - (void)resizeWindow {
-	NSRect frame = NSMakeRect(160, 60, 650, 500);
-	[_window setFrame:frame display:YES animate:YES];
+    NSRect frame = NSMakeRect(160, 60, 650, 500);
+    [_window setFrame:frame display:YES animate:YES];
 }
 
 @end
