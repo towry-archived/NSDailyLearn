@@ -26,8 +26,7 @@
 
 // private method
 - (void)resizeWindow {
-//	NSLog(@"I am called");
-	NSRect frame = NSMakeRect60, 60, 500, 600);
+	NSRect frame = NSMakeRect(160, 60, 650, 500);
 	[_window setFrame:frame display:YES animate:YES];
 }
 

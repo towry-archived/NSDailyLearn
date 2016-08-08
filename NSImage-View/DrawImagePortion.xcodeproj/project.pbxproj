@@ -12,6 +12,7 @@
 		839D54CB1D585C1A00D548C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 839D54CA1D585C1A00D548C6 /* Assets.xcassets */; };
 		839D54CE1D585C1A00D548C6 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 839D54CC1D585C1A00D548C6 /* MainMenu.xib */; };
 		839D54D61D585CF000D548C6 /* pacman.png in Resources */ = {isa = PBXBuildFile; fileRef = 839D54D51D585CF000D548C6 /* pacman.png */; };
+		839D54D91D586A7A00D548C6 /* MainView.m in Sources */ = {isa = PBXBuildFile; fileRef = 839D54D81D586A7A00D548C6 /* MainView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,8 @@
 		839D54CD1D585C1A00D548C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		839D54CF1D585C1A00D548C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		839D54D51D585CF000D548C6 /* pacman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacman.png; sourceTree = "<group>"; };
+		839D54D71D586A7A00D548C6 /* MainView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainView.h; sourceTree = "<group>"; };
+		839D54D81D586A7A00D548C6 /* MainView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,8 @@
 				839D54CC1D585C1A00D548C6 /* MainMenu.xib */,
 				839D54CF1D585C1A00D548C6 /* Info.plist */,
 				839D54C71D585C1A00D548C6 /* Supporting Files */,
+				839D54D71D586A7A00D548C6 /* MainView.h */,
+				839D54D81D586A7A00D548C6 /* MainView.m */,
 			);
 			path = DrawImagePortion;
 			sourceTree = "<group>";
@@ -146,6 +151,7 @@
 			files = (
 				839D54C91D585C1A00D548C6 /* main.m in Sources */,
 				839D54C61D585C1A00D548C6 /* AppDelegate.m in Sources */,
+				839D54D91D586A7A00D548C6 /* MainView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +293,7 @@
 				839D54D41D585C1A00D548C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
